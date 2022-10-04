@@ -42,23 +42,19 @@
 
             .menu {
                 width: 25%;
-                float: left;
-                padding: 15px;
-                border: 1px solid blue;
             }
             .main {
                 width: 50%;
-                float: left;
-                padding: 15px;
-                border: 1px solid blueviolet;
             }
             .aside {
                 width: 25%;
+            }
+            .footer {}
+            .flexbox {
                 float: left;
                 padding: 15px;
                 border: 1px solid blue;
             }
-            .footer {}
         </style>
 
         <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your Feature to execute scripts is turned off</noscript>
@@ -66,9 +62,9 @@
     </head>
     <body>
         <div><header class="header"><h1>Flexbox</h1></header></div>
-        <div><nav class="menu"><h1>Navigation</h1></nav></div>
-        <div><aside class="aside"><a>This is the aside space.</a></aside></div>
-        <div><main class="main"><h1>Main Space</h1></main></div>
+        <div><nav class="menu, flexbox"><h1>Navigation</h1></nav></div>
+        <div><aside class="aside, flexbox"><a>This is the aside space.</a></aside></div>
+        <div><main class="main, flexbox"><h1>Main Space</h1></main></div>
         <div><section>Section</section></div>
         <div><article>Article</article></div>
         <div><footer></footer></div>
