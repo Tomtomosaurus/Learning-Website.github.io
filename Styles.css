@@ -10,7 +10,15 @@ header {
 }
 
 aside {
-    
+    font-size: 2vw;
+}
+
+main {
+    font-size: 2vw;
+}
+
+article {
+    font-size: 2vw;
 }
 
 section {
