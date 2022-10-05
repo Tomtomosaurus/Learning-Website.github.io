@@ -1,2 +1,2 @@
 # Learning-Website.github.io
-Lessons
+Lesson
