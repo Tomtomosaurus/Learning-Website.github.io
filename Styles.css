@@ -1,10 +1,14 @@
-section {
+html {
     background-image:url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/02/Usign-Gradients-Featured-Image.jpg");
+}
+
+section {
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:2vw;
     text-align: justify;
 }
+
 footer {
     position:fixed;
     left:0;
